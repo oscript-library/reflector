@@ -8,7 +8,8 @@ env:
   - CHANNEL=dev
   - PACKAGE_NAME=reflector
   matrix:
-  # - OSCRIPT_VERSION=1.0.20
+  - OSCRIPT_VERSION=1.0.18
+  - OSCRIPT_VERSION=1.0.19
   - OSCRIPT_VERSION=night-build
 services:
   - docker
