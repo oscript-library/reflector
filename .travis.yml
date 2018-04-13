@@ -10,7 +10,11 @@ env:
   matrix:
   - OSCRIPT_VERSION=1_0_18
   - OSCRIPT_VERSION=1_0_19
-  # - OSCRIPT_VERSION=night-build
+  - OSCRIPT_VERSION=night-build
+matrix:
+  allow_failures:
+    - env: OSCRIPT_VERSION=night-build
+
 services:
   - docker
 
