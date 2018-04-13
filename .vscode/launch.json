@@ -11,7 +11,7 @@
             "program": "${file}",
             "args": [],
             "cwd": "${workspaceRoot}",
-            "runtimeExecutable": null,
+            "runtimeExecutable": "/usr/bin/oscript",
             "debugPort": 2801,
             "protocol": "internal"
         }
